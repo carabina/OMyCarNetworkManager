@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA80D1D1F553EA900B8A7DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80D1C1F553EA900B8A7DB /* main.m */; };
+		CCA80D201F553EA900B8A7DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80D1F1F553EA900B8A7DB /* AppDelegate.m */; };
+		CCA80D231F553EA900B8A7DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80D221F553EA900B8A7DB /* ViewController.m */; };
+		CCA80D261F553EA900B8A7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA80D241F553EA900B8A7DB /* Main.storyboard */; };
+		CCA80D281F553EA900B8A7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA80D271F553EA900B8A7DB /* Assets.xcassets */; };
+		CCA80D2B1F553EA900B8A7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA80D291F553EA900B8A7DB /* LaunchScreen.storyboard */; };
+		CCA80DC41F55401300B8A7DB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DA01F55401300B8A7DB /* AFHTTPSessionManager.m */; };
+		CCA80DC51F55401300B8A7DB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DA31F55401300B8A7DB /* AFNetworkReachabilityManager.m */; };
+		CCA80DC61F55401300B8A7DB /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DA51F55401300B8A7DB /* AFSecurityPolicy.m */; };
+		CCA80DC71F55401300B8A7DB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DA71F55401300B8A7DB /* AFURLRequestSerialization.m */; };
+		CCA80DC81F55401300B8A7DB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DA91F55401300B8A7DB /* AFURLResponseSerialization.m */; };
+		CCA80DC91F55401300B8A7DB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DAB1F55401300B8A7DB /* AFURLSessionManager.m */; };
+		CCA80DCA1F55401300B8A7DB /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DAE1F55401300B8A7DB /* AFAutoPurgingImageCache.m */; };
+		CCA80DCB1F55401300B8A7DB /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DB01F55401300B8A7DB /* AFImageDownloader.m */; };
+		CCA80DCC1F55401300B8A7DB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DB21F55401300B8A7DB /* AFNetworkActivityIndicatorManager.m */; };
+		CCA80DCD1F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DB41F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.m */; };
+		CCA80DCE1F55401300B8A7DB /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DB61F55401300B8A7DB /* UIButton+AFNetworking.m */; };
+		CCA80DCF1F55401300B8A7DB /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DB91F55401300B8A7DB /* UIImageView+AFNetworking.m */; };
+		CCA80DD01F55401300B8A7DB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DBC1F55401300B8A7DB /* UIProgressView+AFNetworking.m */; };
+		CCA80DD11F55401300B8A7DB /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DBE1F55401300B8A7DB /* UIRefreshControl+AFNetworking.m */; };
+		CCA80DD21F55401300B8A7DB /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DC01F55401300B8A7DB /* UIWebView+AFNetworking.m */; };
+		CCA80DD31F55401300B8A7DB /* OMyCarNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DC31F55401300B8A7DB /* OMyCarNetworkManager.m */; };
+		CCA80DF71F556B8C00B8A7DB /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA80DF61F556B8C00B8A7DB /* test.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCA80D181F553EA900B8A7DB /* OMyCarNetworkManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMyCarNetworkManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA80D1C1F553EA900B8A7DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCA80D1E1F553EA900B8A7DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCA80D1F1F553EA900B8A7DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCA80D211F553EA900B8A7DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCA80D221F553EA900B8A7DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCA80D251F553EA900B8A7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA80D271F553EA900B8A7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCA80D2A1F553EA900B8A7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCA80D2C1F553EA900B8A7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA80D9F1F55401300B8A7DB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CCA80DA01F55401300B8A7DB /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CCA80DA11F55401300B8A7DB /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CCA80DA21F55401300B8A7DB /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CCA80DA31F55401300B8A7DB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CCA80DA41F55401300B8A7DB /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CCA80DA51F55401300B8A7DB /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CCA80DA61F55401300B8A7DB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CCA80DA71F55401300B8A7DB /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CCA80DA81F55401300B8A7DB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CCA80DA91F55401300B8A7DB /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CCA80DAA1F55401300B8A7DB /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CCA80DAB1F55401300B8A7DB /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		CCA80DAD1F55401300B8A7DB /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		CCA80DAE1F55401300B8A7DB /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		CCA80DAF1F55401300B8A7DB /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		CCA80DB01F55401300B8A7DB /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		CCA80DB11F55401300B8A7DB /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		CCA80DB21F55401300B8A7DB /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		CCA80DB31F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		CCA80DB41F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		CCA80DB51F55401300B8A7DB /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		CCA80DB61F55401300B8A7DB /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		CCA80DB71F55401300B8A7DB /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		CCA80DB81F55401300B8A7DB /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		CCA80DB91F55401300B8A7DB /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		CCA80DBA1F55401300B8A7DB /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		CCA80DBB1F55401300B8A7DB /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		CCA80DBC1F55401300B8A7DB /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		CCA80DBD1F55401300B8A7DB /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		CCA80DBE1F55401300B8A7DB /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		CCA80DBF1F55401300B8A7DB /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		CCA80DC01F55401300B8A7DB /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		CCA80DC21F55401300B8A7DB /* OMyCarNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMyCarNetworkManager.h; sourceTree = "<group>"; };
+		CCA80DC31F55401300B8A7DB /* OMyCarNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMyCarNetworkManager.m; sourceTree = "<group>"; };
+		CCA80DF61F556B8C00B8A7DB /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA80D151F553EA900B8A7DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA80D0F1F553EA900B8A7DB = {
+			isa = PBXGroup;
+			children = (
+				CCA80D1A1F553EA900B8A7DB /* OMyCarNetworkManager */,
+				CCA80D191F553EA900B8A7DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA80D191F553EA900B8A7DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA80D181F553EA900B8A7DB /* OMyCarNetworkManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA80D1A1F553EA900B8A7DB /* OMyCarNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				CCA80D9C1F55401300B8A7DB /* OMyCarNetworkManager */,
+				CCA80D1E1F553EA900B8A7DB /* AppDelegate.h */,
+				CCA80D1F1F553EA900B8A7DB /* AppDelegate.m */,
+				CCA80D211F553EA900B8A7DB /* ViewController.h */,
+				CCA80D221F553EA900B8A7DB /* ViewController.m */,
+				CCA80DF61F556B8C00B8A7DB /* test.png */,
+				CCA80D241F553EA900B8A7DB /* Main.storyboard */,
+				CCA80D271F553EA900B8A7DB /* Assets.xcassets */,
+				CCA80D291F553EA900B8A7DB /* LaunchScreen.storyboard */,
+				CCA80D2C1F553EA900B8A7DB /* Info.plist */,
+				CCA80D1B1F553EA900B8A7DB /* Supporting Files */,
+			);
+			path = OMyCarNetworkManager;
+			sourceTree = "<group>";
+		};
+		CCA80D1B1F553EA900B8A7DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCA80D1C1F553EA900B8A7DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA80D9C1F55401300B8A7DB /* OMyCarNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				CCA80D9D1F55401300B8A7DB /* AFNetworking */,
+				CCA80DC11F55401300B8A7DB /* NetWorkClass */,
+			);
+			path = OMyCarNetworkManager;
+			sourceTree = "<group>";
+		};
+		CCA80D9D1F55401300B8A7DB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CCA80D9E1F55401300B8A7DB /* AFNetworking */,
+				CCA80DAC1F55401300B8A7DB /* UIKit+AFNetworking */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CCA80D9E1F55401300B8A7DB /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CCA80D9F1F55401300B8A7DB /* AFHTTPSessionManager.h */,
+				CCA80DA01F55401300B8A7DB /* AFHTTPSessionManager.m */,
+				CCA80DA11F55401300B8A7DB /* AFNetworking.h */,
+				CCA80DA21F55401300B8A7DB /* AFNetworkReachabilityManager.h */,
+				CCA80DA31F55401300B8A7DB /* AFNetworkReachabilityManager.m */,
+				CCA80DA41F55401300B8A7DB /* AFSecurityPolicy.h */,
+				CCA80DA51F55401300B8A7DB /* AFSecurityPolicy.m */,
+				CCA80DA61F55401300B8A7DB /* AFURLRequestSerialization.h */,
+				CCA80DA71F55401300B8A7DB /* AFURLRequestSerialization.m */,
+				CCA80DA81F55401300B8A7DB /* AFURLResponseSerialization.h */,
+				CCA80DA91F55401300B8A7DB /* AFURLResponseSerialization.m */,
+				CCA80DAA1F55401300B8A7DB /* AFURLSessionManager.h */,
+				CCA80DAB1F55401300B8A7DB /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		CCA80DAC1F55401300B8A7DB /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CCA80DAD1F55401300B8A7DB /* AFAutoPurgingImageCache.h */,
+				CCA80DAE1F55401300B8A7DB /* AFAutoPurgingImageCache.m */,
+				CCA80DAF1F55401300B8A7DB /* AFImageDownloader.h */,
+				CCA80DB01F55401300B8A7DB /* AFImageDownloader.m */,
+				CCA80DB11F55401300B8A7DB /* AFNetworkActivityIndicatorManager.h */,
+				CCA80DB21F55401300B8A7DB /* AFNetworkActivityIndicatorManager.m */,
+				CCA80DB31F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.h */,
+				CCA80DB41F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.m */,
+				CCA80DB51F55401300B8A7DB /* UIButton+AFNetworking.h */,
+				CCA80DB61F55401300B8A7DB /* UIButton+AFNetworking.m */,
+				CCA80DB71F55401300B8A7DB /* UIImage+AFNetworking.h */,
+				CCA80DB81F55401300B8A7DB /* UIImageView+AFNetworking.h */,
+				CCA80DB91F55401300B8A7DB /* UIImageView+AFNetworking.m */,
+				CCA80DBA1F55401300B8A7DB /* UIKit+AFNetworking.h */,
+				CCA80DBB1F55401300B8A7DB /* UIProgressView+AFNetworking.h */,
+				CCA80DBC1F55401300B8A7DB /* UIProgressView+AFNetworking.m */,
+				CCA80DBD1F55401300B8A7DB /* UIRefreshControl+AFNetworking.h */,
+				CCA80DBE1F55401300B8A7DB /* UIRefreshControl+AFNetworking.m */,
+				CCA80DBF1F55401300B8A7DB /* UIWebView+AFNetworking.h */,
+				CCA80DC01F55401300B8A7DB /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		CCA80DC11F55401300B8A7DB /* NetWorkClass */ = {
+			isa = PBXGroup;
+			children = (
+				CCA80DC21F55401300B8A7DB /* OMyCarNetworkManager.h */,
+				CCA80DC31F55401300B8A7DB /* OMyCarNetworkManager.m */,
+			);
+			path = NetWorkClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA80D171F553EA900B8A7DB /* OMyCarNetworkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA80D2F1F553EA900B8A7DB /* Build configuration list for PBXNativeTarget "OMyCarNetworkManager" */;
+			buildPhases = (
+				CCA80D141F553EA900B8A7DB /* Sources */,
+				CCA80D151F553EA900B8A7DB /* Frameworks */,
+				CCA80D161F553EA900B8A7DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OMyCarNetworkManager;
+			productName = OMyCarNetworkManager;
+			productReference = CCA80D181F553EA900B8A7DB /* OMyCarNetworkManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA80D101F553EA900B8A7DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.lxh;
+				TargetAttributes = {
+					CCA80D171F553EA900B8A7DB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = CCA80D131F553EA900B8A7DB /* Build configuration list for PBXProject "OMyCarNetworkManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA80D0F1F553EA900B8A7DB;
+			productRefGroup = CCA80D191F553EA900B8A7DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA80D171F553EA900B8A7DB /* OMyCarNetworkManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA80D161F553EA900B8A7DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA80DF71F556B8C00B8A7DB /* test.png in Resources */,
+				CCA80D2B1F553EA900B8A7DB /* LaunchScreen.storyboard in Resources */,
+				CCA80D281F553EA900B8A7DB /* Assets.xcassets in Resources */,
+				CCA80D261F553EA900B8A7DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA80D141F553EA900B8A7DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA80DCF1F55401300B8A7DB /* UIImageView+AFNetworking.m in Sources */,
+				CCA80DD11F55401300B8A7DB /* UIRefreshControl+AFNetworking.m in Sources */,
+				CCA80DC41F55401300B8A7DB /* AFHTTPSessionManager.m in Sources */,
+				CCA80DC51F55401300B8A7DB /* AFNetworkReachabilityManager.m in Sources */,
+				CCA80DD21F55401300B8A7DB /* UIWebView+AFNetworking.m in Sources */,
+				CCA80DCB1F55401300B8A7DB /* AFImageDownloader.m in Sources */,
+				CCA80DD31F55401300B8A7DB /* OMyCarNetworkManager.m in Sources */,
+				CCA80DCD1F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				CCA80DCA1F55401300B8A7DB /* AFAutoPurgingImageCache.m in Sources */,
+				CCA80DCC1F55401300B8A7DB /* AFNetworkActivityIndicatorManager.m in Sources */,
+				CCA80DD01F55401300B8A7DB /* UIProgressView+AFNetworking.m in Sources */,
+				CCA80D231F553EA900B8A7DB /* ViewController.m in Sources */,
+				CCA80DCE1F55401300B8A7DB /* UIButton+AFNetworking.m in Sources */,
+				CCA80DC71F55401300B8A7DB /* AFURLRequestSerialization.m in Sources */,
+				CCA80DC61F55401300B8A7DB /* AFSecurityPolicy.m in Sources */,
+				CCA80DC91F55401300B8A7DB /* AFURLSessionManager.m in Sources */,
+				CCA80D201F553EA900B8A7DB /* AppDelegate.m in Sources */,
+				CCA80D1D1F553EA900B8A7DB /* main.m in Sources */,
+				CCA80DC81F55401300B8A7DB /* AFURLResponseSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCA80D241F553EA900B8A7DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA80D251F553EA900B8A7DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA80D291F553EA900B8A7DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA80D2A1F553EA900B8A7DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA80D2D1F553EA900B8A7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCA80D2E1F553EA900B8A7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA80D301F553EA900B8A7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = OMyCarNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxh.OMyCarNetworkManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		CCA80D311F553EA900B8A7DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = OMyCarNetworkManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxh.OMyCarNetworkManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA80D131F553EA900B8A7DB /* Build configuration list for PBXProject "OMyCarNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA80D2D1F553EA900B8A7DB /* Debug */,
+				CCA80D2E1F553EA900B8A7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA80D2F1F553EA900B8A7DB /* Build configuration list for PBXNativeTarget "OMyCarNetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA80D301F553EA900B8A7DB /* Debug */,
+				CCA80D311F553EA900B8A7DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCA80D101F553EA900B8A7DB /* Project object */;
+}
