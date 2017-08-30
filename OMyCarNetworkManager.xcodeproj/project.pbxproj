@@ -16,6 +16,7 @@
 		CCA80D2B1F553EA900B8A7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA80D291F553EA900B8A7DB /* LaunchScreen.storyboard */; };
 		CCA80DD31F55401300B8A7DB /* OMyCarNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DC31F55401300B8A7DB /* OMyCarNetworkManager.m */; };
 		CCA80DF71F556B8C00B8A7DB /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA80DF61F556B8C00B8A7DB /* test.png */; };
+		CCA80E2D1F5688F700B8A7DB /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80E2C1F5688F700B8A7DB /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		CCA80DC21F55401300B8A7DB /* OMyCarNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMyCarNetworkManager.h; sourceTree = "<group>"; };
 		CCA80DC31F55401300B8A7DB /* OMyCarNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMyCarNetworkManager.m; sourceTree = "<group>"; };
 		CCA80DF61F556B8C00B8A7DB /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		CCA80E2B1F5688F700B8A7DB /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		CCA80E2C1F5688F700B8A7DB /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 			children = (
 				CCA80DC21F55401300B8A7DB /* OMyCarNetworkManager.h */,
 				CCA80DC31F55401300B8A7DB /* OMyCarNetworkManager.m */,
+				CCA80E2B1F5688F700B8A7DB /* test.h */,
+				CCA80E2C1F5688F700B8A7DB /* test.m */,
 			);
 			path = NetWorkClass;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA80E2D1F5688F700B8A7DB /* test.m in Sources */,
 				CCA80DD31F55401300B8A7DB /* OMyCarNetworkManager.m in Sources */,
 				CCA80D231F553EA900B8A7DB /* ViewController.m in Sources */,
 				CCA80D201F553EA900B8A7DB /* AppDelegate.m in Sources */,
