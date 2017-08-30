@@ -7,32 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		856F25FA4A9807F8192EF384 /* libPods-OMyCarNetworkManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A13EA6672D392E83549512 /* libPods-OMyCarNetworkManager.a */; };
 		CCA80D1D1F553EA900B8A7DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80D1C1F553EA900B8A7DB /* main.m */; };
 		CCA80D201F553EA900B8A7DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80D1F1F553EA900B8A7DB /* AppDelegate.m */; };
 		CCA80D231F553EA900B8A7DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80D221F553EA900B8A7DB /* ViewController.m */; };
 		CCA80D261F553EA900B8A7DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA80D241F553EA900B8A7DB /* Main.storyboard */; };
 		CCA80D281F553EA900B8A7DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA80D271F553EA900B8A7DB /* Assets.xcassets */; };
 		CCA80D2B1F553EA900B8A7DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA80D291F553EA900B8A7DB /* LaunchScreen.storyboard */; };
-		CCA80DC41F55401300B8A7DB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DA01F55401300B8A7DB /* AFHTTPSessionManager.m */; };
-		CCA80DC51F55401300B8A7DB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DA31F55401300B8A7DB /* AFNetworkReachabilityManager.m */; };
-		CCA80DC61F55401300B8A7DB /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DA51F55401300B8A7DB /* AFSecurityPolicy.m */; };
-		CCA80DC71F55401300B8A7DB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DA71F55401300B8A7DB /* AFURLRequestSerialization.m */; };
-		CCA80DC81F55401300B8A7DB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DA91F55401300B8A7DB /* AFURLResponseSerialization.m */; };
-		CCA80DC91F55401300B8A7DB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DAB1F55401300B8A7DB /* AFURLSessionManager.m */; };
-		CCA80DCA1F55401300B8A7DB /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DAE1F55401300B8A7DB /* AFAutoPurgingImageCache.m */; };
-		CCA80DCB1F55401300B8A7DB /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DB01F55401300B8A7DB /* AFImageDownloader.m */; };
-		CCA80DCC1F55401300B8A7DB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DB21F55401300B8A7DB /* AFNetworkActivityIndicatorManager.m */; };
-		CCA80DCD1F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DB41F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.m */; };
-		CCA80DCE1F55401300B8A7DB /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DB61F55401300B8A7DB /* UIButton+AFNetworking.m */; };
-		CCA80DCF1F55401300B8A7DB /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DB91F55401300B8A7DB /* UIImageView+AFNetworking.m */; };
-		CCA80DD01F55401300B8A7DB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DBC1F55401300B8A7DB /* UIProgressView+AFNetworking.m */; };
-		CCA80DD11F55401300B8A7DB /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DBE1F55401300B8A7DB /* UIRefreshControl+AFNetworking.m */; };
-		CCA80DD21F55401300B8A7DB /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DC01F55401300B8A7DB /* UIWebView+AFNetworking.m */; };
 		CCA80DD31F55401300B8A7DB /* OMyCarNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA80DC31F55401300B8A7DB /* OMyCarNetworkManager.m */; };
 		CCA80DF71F556B8C00B8A7DB /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = CCA80DF61F556B8C00B8A7DB /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AC8A4ABA7A2120A72012CF3 /* Pods-OMyCarNetworkManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMyCarNetworkManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OMyCarNetworkManager/Pods-OMyCarNetworkManager.debug.xcconfig"; sourceTree = "<group>"; };
+		2E7113BC49F709285EDBDB39 /* Pods-OMyCarNetworkManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMyCarNetworkManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-OMyCarNetworkManager/Pods-OMyCarNetworkManager.release.xcconfig"; sourceTree = "<group>"; };
+		B0A13EA6672D392E83549512 /* libPods-OMyCarNetworkManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OMyCarNetworkManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA80D181F553EA900B8A7DB /* OMyCarNetworkManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMyCarNetworkManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA80D1C1F553EA900B8A7DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCA80D1E1F553EA900B8A7DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,39 +32,6 @@
 		CCA80D271F553EA900B8A7DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCA80D2A1F553EA900B8A7DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCA80D2C1F553EA900B8A7DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCA80D9F1F55401300B8A7DB /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		CCA80DA01F55401300B8A7DB /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		CCA80DA11F55401300B8A7DB /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		CCA80DA21F55401300B8A7DB /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		CCA80DA31F55401300B8A7DB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		CCA80DA41F55401300B8A7DB /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		CCA80DA51F55401300B8A7DB /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		CCA80DA61F55401300B8A7DB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		CCA80DA71F55401300B8A7DB /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		CCA80DA81F55401300B8A7DB /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		CCA80DA91F55401300B8A7DB /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		CCA80DAA1F55401300B8A7DB /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		CCA80DAB1F55401300B8A7DB /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		CCA80DAD1F55401300B8A7DB /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
-		CCA80DAE1F55401300B8A7DB /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
-		CCA80DAF1F55401300B8A7DB /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
-		CCA80DB01F55401300B8A7DB /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
-		CCA80DB11F55401300B8A7DB /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
-		CCA80DB21F55401300B8A7DB /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
-		CCA80DB31F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		CCA80DB41F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		CCA80DB51F55401300B8A7DB /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		CCA80DB61F55401300B8A7DB /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		CCA80DB71F55401300B8A7DB /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		CCA80DB81F55401300B8A7DB /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		CCA80DB91F55401300B8A7DB /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		CCA80DBA1F55401300B8A7DB /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		CCA80DBB1F55401300B8A7DB /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		CCA80DBC1F55401300B8A7DB /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		CCA80DBD1F55401300B8A7DB /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		CCA80DBE1F55401300B8A7DB /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		CCA80DBF1F55401300B8A7DB /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		CCA80DC01F55401300B8A7DB /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
 		CCA80DC21F55401300B8A7DB /* OMyCarNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMyCarNetworkManager.h; sourceTree = "<group>"; };
 		CCA80DC31F55401300B8A7DB /* OMyCarNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMyCarNetworkManager.m; sourceTree = "<group>"; };
 		CCA80DF61F556B8C00B8A7DB /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
@@ -86,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				856F25FA4A9807F8192EF384 /* libPods-OMyCarNetworkManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1271F141F97CCE98AFDA3767 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0AC8A4ABA7A2120A72012CF3 /* Pods-OMyCarNetworkManager.debug.xcconfig */,
+				2E7113BC49F709285EDBDB39 /* Pods-OMyCarNetworkManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C86B766E43E7279E7A505728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0A13EA6672D392E83549512 /* libPods-OMyCarNetworkManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CCA80D0F1F553EA900B8A7DB = {
 			isa = PBXGroup;
 			children = (
 				CCA80D1A1F553EA900B8A7DB /* OMyCarNetworkManager */,
 				CCA80D191F553EA900B8A7DB /* Products */,
+				1271F141F97CCE98AFDA3767 /* Pods */,
+				C86B766E43E7279E7A505728 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,66 +113,9 @@
 		CCA80D9C1F55401300B8A7DB /* OMyCarNetworkManager */ = {
 			isa = PBXGroup;
 			children = (
-				CCA80D9D1F55401300B8A7DB /* AFNetworking */,
 				CCA80DC11F55401300B8A7DB /* NetWorkClass */,
 			);
 			path = OMyCarNetworkManager;
-			sourceTree = "<group>";
-		};
-		CCA80D9D1F55401300B8A7DB /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				CCA80D9E1F55401300B8A7DB /* AFNetworking */,
-				CCA80DAC1F55401300B8A7DB /* UIKit+AFNetworking */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		CCA80D9E1F55401300B8A7DB /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				CCA80D9F1F55401300B8A7DB /* AFHTTPSessionManager.h */,
-				CCA80DA01F55401300B8A7DB /* AFHTTPSessionManager.m */,
-				CCA80DA11F55401300B8A7DB /* AFNetworking.h */,
-				CCA80DA21F55401300B8A7DB /* AFNetworkReachabilityManager.h */,
-				CCA80DA31F55401300B8A7DB /* AFNetworkReachabilityManager.m */,
-				CCA80DA41F55401300B8A7DB /* AFSecurityPolicy.h */,
-				CCA80DA51F55401300B8A7DB /* AFSecurityPolicy.m */,
-				CCA80DA61F55401300B8A7DB /* AFURLRequestSerialization.h */,
-				CCA80DA71F55401300B8A7DB /* AFURLRequestSerialization.m */,
-				CCA80DA81F55401300B8A7DB /* AFURLResponseSerialization.h */,
-				CCA80DA91F55401300B8A7DB /* AFURLResponseSerialization.m */,
-				CCA80DAA1F55401300B8A7DB /* AFURLSessionManager.h */,
-				CCA80DAB1F55401300B8A7DB /* AFURLSessionManager.m */,
-			);
-			path = AFNetworking;
-			sourceTree = "<group>";
-		};
-		CCA80DAC1F55401300B8A7DB /* UIKit+AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				CCA80DAD1F55401300B8A7DB /* AFAutoPurgingImageCache.h */,
-				CCA80DAE1F55401300B8A7DB /* AFAutoPurgingImageCache.m */,
-				CCA80DAF1F55401300B8A7DB /* AFImageDownloader.h */,
-				CCA80DB01F55401300B8A7DB /* AFImageDownloader.m */,
-				CCA80DB11F55401300B8A7DB /* AFNetworkActivityIndicatorManager.h */,
-				CCA80DB21F55401300B8A7DB /* AFNetworkActivityIndicatorManager.m */,
-				CCA80DB31F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.h */,
-				CCA80DB41F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.m */,
-				CCA80DB51F55401300B8A7DB /* UIButton+AFNetworking.h */,
-				CCA80DB61F55401300B8A7DB /* UIButton+AFNetworking.m */,
-				CCA80DB71F55401300B8A7DB /* UIImage+AFNetworking.h */,
-				CCA80DB81F55401300B8A7DB /* UIImageView+AFNetworking.h */,
-				CCA80DB91F55401300B8A7DB /* UIImageView+AFNetworking.m */,
-				CCA80DBA1F55401300B8A7DB /* UIKit+AFNetworking.h */,
-				CCA80DBB1F55401300B8A7DB /* UIProgressView+AFNetworking.h */,
-				CCA80DBC1F55401300B8A7DB /* UIProgressView+AFNetworking.m */,
-				CCA80DBD1F55401300B8A7DB /* UIRefreshControl+AFNetworking.h */,
-				CCA80DBE1F55401300B8A7DB /* UIRefreshControl+AFNetworking.m */,
-				CCA80DBF1F55401300B8A7DB /* UIWebView+AFNetworking.h */,
-				CCA80DC01F55401300B8A7DB /* UIWebView+AFNetworking.m */,
-			);
-			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
 		CCA80DC11F55401300B8A7DB /* NetWorkClass */ = {
@@ -215,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCA80D2F1F553EA900B8A7DB /* Build configuration list for PBXNativeTarget "OMyCarNetworkManager" */;
 			buildPhases = (
+				9F55362ABDB11F414EC19341 /* [CP] Check Pods Manifest.lock */,
 				CCA80D141F553EA900B8A7DB /* Sources */,
 				CCA80D151F553EA900B8A7DB /* Frameworks */,
 				CCA80D161F553EA900B8A7DB /* Resources */,
+				8BE14A436215C7C9E4B2ACDB /* [CP] Embed Pods Frameworks */,
+				9C6C3F1458FA1A86860EA062 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,30 +197,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8BE14A436215C7C9E4B2ACDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OMyCarNetworkManager/Pods-OMyCarNetworkManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6C3F1458FA1A86860EA062 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OMyCarNetworkManager/Pods-OMyCarNetworkManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F55362ABDB11F414EC19341 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCA80D141F553EA900B8A7DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCA80DCF1F55401300B8A7DB /* UIImageView+AFNetworking.m in Sources */,
-				CCA80DD11F55401300B8A7DB /* UIRefreshControl+AFNetworking.m in Sources */,
-				CCA80DC41F55401300B8A7DB /* AFHTTPSessionManager.m in Sources */,
-				CCA80DC51F55401300B8A7DB /* AFNetworkReachabilityManager.m in Sources */,
-				CCA80DD21F55401300B8A7DB /* UIWebView+AFNetworking.m in Sources */,
-				CCA80DCB1F55401300B8A7DB /* AFImageDownloader.m in Sources */,
 				CCA80DD31F55401300B8A7DB /* OMyCarNetworkManager.m in Sources */,
-				CCA80DCD1F55401300B8A7DB /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				CCA80DCA1F55401300B8A7DB /* AFAutoPurgingImageCache.m in Sources */,
-				CCA80DCC1F55401300B8A7DB /* AFNetworkActivityIndicatorManager.m in Sources */,
-				CCA80DD01F55401300B8A7DB /* UIProgressView+AFNetworking.m in Sources */,
 				CCA80D231F553EA900B8A7DB /* ViewController.m in Sources */,
-				CCA80DCE1F55401300B8A7DB /* UIButton+AFNetworking.m in Sources */,
-				CCA80DC71F55401300B8A7DB /* AFURLRequestSerialization.m in Sources */,
-				CCA80DC61F55401300B8A7DB /* AFSecurityPolicy.m in Sources */,
-				CCA80DC91F55401300B8A7DB /* AFURLSessionManager.m in Sources */,
 				CCA80D201F553EA900B8A7DB /* AppDelegate.m in Sources */,
 				CCA80D1D1F553EA900B8A7DB /* main.m in Sources */,
-				CCA80DC81F55401300B8A7DB /* AFURLResponseSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,9 +373,14 @@
 		};
 		CCA80D301F553EA900B8A7DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AC8A4ABA7A2120A72012CF3 /* Pods-OMyCarNetworkManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
 				INFOPLIST_FILE = OMyCarNetworkManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lxh.OMyCarNetworkManager;
@@ -431,9 +391,14 @@
 		};
 		CCA80D311F553EA900B8A7DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7113BC49F709285EDBDB39 /* Pods-OMyCarNetworkManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
 				INFOPLIST_FILE = OMyCarNetworkManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lxh.OMyCarNetworkManager;
@@ -461,6 +426,7 @@
 				CCA80D311F553EA900B8A7DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

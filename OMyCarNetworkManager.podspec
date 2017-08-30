@@ -1,5 +1,5 @@
 
-d::Spec.new do |s|
+Pod::Spec.new do |s|
   s.name         = "OMyCarNetworkManager"    #存储库名称
   s.version      = "1.0"      #版本号，与tag值一致
   s.summary      = "omycar项目的网络依赖组件，结合AFNetworking,创建get,post等请求，url特殊字符处理，自动追加域名处理"  #简介
